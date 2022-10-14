@@ -12,7 +12,7 @@ public class TextureManager {
         }
 
         public Identifier button(int button_index) {
-            return GetIdentifier("textures/gui/buttons/" + this.tab.name().toLowerCase() + button_index + ".png");
+            return GetIdentifier("textures/gui/buttons/" + this.tab.name().toLowerCase() + "_" + button_index + ".png");
         }
 
         public Identifier background() {

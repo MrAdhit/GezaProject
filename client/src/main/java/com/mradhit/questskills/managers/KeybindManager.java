@@ -11,6 +11,8 @@ import org.lwjgl.glfw.GLFW;
 
 public class KeybindManager {
     public KeybindManager() {
+        Constant.LOGGER.info("Initializing Keybinds");
+
         ClientTickEvents.END_CLIENT_TICK.register(client -> {
             while (KEYBIND.OPEN_MAIN_MENU.isPressed()) {
                 client.setScreen(new ScreenManager(new MainMenu()));
