@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "questskills",
+  "version": "${version}",
+  "name": "QuestSkills",
+  "description": "",
+  "authors": [
+    "MrAdhit"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/questskills/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.mradhit.questskills.QuestSkills"
+    ]
+  },
+  "mixins": [
+    "questskills.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "1.18.2"
+  }
+}
