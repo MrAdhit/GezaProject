@@ -7,10 +7,22 @@ import com.mradhit.questskills.screens.MainMenu;
 import net.fabricmc.fabric.api.client.command.v1.ClientCommandManager;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.network.ClientCommandSource;
+import net.minecraft.text.Text;
+
+import java.util.UUID;
 
 public class CommandManager {
     public CommandManager() {
         Constant.LOGGER.info("Initializing Commands");
+
+        ClientCommandManager.DISPATCHER.register(ClientCommandManager.literal("mydata").then(ClientCommandManager.argument("data", StringArgumentType.string()).executes(context -> {
+            String argument = context.getArgument("data", String.class);
+            String data = DataManager.get(argument, String.class);
+
+            context.getSource().getPlayer().sendSystemMessage(Text.of(data), UUID.randomUUID());
+
+            return 0;
+        })));
 
         ClientCommandManager.DISPATCHER.register(ClientCommandManager.literal("opengui").then(ClientCommandManager.argument("menu", StringArgumentType.string()).suggests((context, builder) -> {
             for(TextureManager.TAB tab : TextureManager.TAB.values()) {

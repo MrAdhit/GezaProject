@@ -1,8 +1,8 @@
 package com.mradhit.questskills;
 
-import net.minecraft.util.Identifier;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import com.mradhit.questskills.utils.Identifier;
+
+import java.util.logging.Logger;
 
 public class Constant {
     public static class MOD {
@@ -50,5 +50,5 @@ public class Constant {
         }
     }
 
-    public final static Logger LOGGER = LogManager.getLogger(Constant.MOD.NAME);
+    public final static Logger LOGGER = QuestSkills.plugin.getLogger();
 }

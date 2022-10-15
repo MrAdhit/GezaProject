@@ -1,6 +1,7 @@
 package com.mradhit.questskills;
 
 import com.mradhit.questskills.managers.CommandManager;
+import com.mradhit.questskills.managers.DataManager;
 import com.mradhit.questskills.managers.KeybindManager;
 import net.fabricmc.api.ModInitializer;
 
@@ -12,5 +13,6 @@ public class QuestSkills implements ModInitializer {
 
         new KeybindManager();
         new CommandManager();
+        new DataManager();
     }
 }
