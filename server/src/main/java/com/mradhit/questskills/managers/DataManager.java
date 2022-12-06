@@ -8,9 +8,9 @@ import org.bukkit.scheduler.BukkitTask;
 import org.json.simple.JSONObject;
 
 import java.util.HashMap;
-// TODO: STRUCTURE THE DATA
+
 public class DataManager {
-    public static HashMap<Player, BukkitTask> playerScheduler = new HashMap<>();
+    public static HashMap<Player, BukkitTask[]> playerScheduler = new HashMap<>();
 
     public HashMap<String, Object> data = new HashMap<>();
     public Player player;

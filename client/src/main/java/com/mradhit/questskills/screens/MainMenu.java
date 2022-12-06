@@ -6,7 +6,6 @@ import com.mradhit.questskills.managers.ScreenManager;
 import com.mradhit.questskills.managers.TextureManager;
 import com.mradhit.questskills.screens.painters.SpritePainters;
 import com.mradhit.questskills.screens.templates.ButtonTemplate;
-import com.mradhit.questskills.screens.widgets.WSpriteButton;
 import io.github.cottonmc.cotton.gui.client.LightweightGuiDescription;
 import io.github.cottonmc.cotton.gui.widget.WPlainPanel;
 import net.minecraft.client.MinecraftClient;
@@ -19,7 +18,7 @@ public class MainMenu extends LightweightGuiDescription {
     public MainMenu() {
         setRootPanel(root);
         root.setSize(resolution.width, resolution.height);
-        // TODO: SYNC WITH ACTUAL DATA
+
         ButtonTemplate equipment = new ButtonTemplate(texture.button(1), new String[]{"Ke Equipment"}, new Integer[]{43, 35, 18, 18}, () -> {
             MinecraftClient.getInstance().setScreen(new ScreenManager(new Equipment()));
         });

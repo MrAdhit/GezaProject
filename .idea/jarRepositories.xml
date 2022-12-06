@@ -52,6 +52,11 @@
       <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="phoenix" />
+      <option name="name" value="phoenix" />
+      <option name="url" value="https://nexus.phoenixdvpt.fr/repository/maven-public/" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="UserLocalRemappedMods" />
       <option name="name" value="UserLocalRemappedMods" />
       <option name="url" value="file:/$PROJECT_DIR$/client/.gradle/loom-cache/remapped_mods/" />

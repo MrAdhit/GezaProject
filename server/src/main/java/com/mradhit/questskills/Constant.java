@@ -50,5 +50,29 @@ public class Constant {
         }
     }
 
+    public static enum Equipments {
+        SEPATU_NAGA_GENI,
+        CELANA_NAGA_GENI,
+        HELM_NAGA_GENI,
+        ARMOR_NAGA_GENI,
+        KAPAK_NAGA_GENI
+    }
+
+    public static enum Abilities {
+        SAYATAN_LISTRIK,
+        KAPAK_MELAYANG,
+        AURA_SAKTI,
+        SERANGAN_PETIR_BERTUBI,
+        AMUKAN_PENDEKAR_SAKTI
+    }
+
+    public static enum PowerUps {
+        TEKAD_PENDEKAR,
+        TEKAD_HATI,
+        TEKAD_RAGA_GENI,
+        TEKAD_JIWA,
+        TEKAD_ALAM_SEMESTA
+    }
+
     public final static Logger LOGGER = QuestSkills.plugin.getLogger();
 }

@@ -63,7 +63,7 @@ public class WSpriteButton extends WWidget {
         return this;
     }
 
-    public void setTooltips(String[] tooltips){
+    public void setTooltips(String... tooltips){
         this.tooltips = tooltips;
     }
 

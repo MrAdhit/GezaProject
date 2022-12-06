@@ -3,6 +3,10 @@ version: '${project.version}'
 main: com.mradhit.questskills.QuestSkills
 api-version: 1.18
 authors: [ MrAdhit ]
+depend:
+  - MMOItems
 commands:
   setdata:
     description: Set your data
+  givemakapak:
+    description: Give Back Kapak

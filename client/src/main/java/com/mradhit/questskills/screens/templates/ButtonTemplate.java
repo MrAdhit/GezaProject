@@ -5,6 +5,9 @@ import com.mradhit.questskills.screens.widgets.WSpriteButton;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.util.Identifier;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class ButtonTemplate extends WSpriteButton {
     public int xPos;
     public int yPos;
@@ -28,6 +31,15 @@ public class ButtonTemplate extends WSpriteButton {
 
     public ButtonTemplate enable(boolean enable) {
         this.setEnabled(enable);
+        return this;
+    }
+
+    public ButtonTemplate setTooltip(String... tooltips) {
+        List<String> list = new ArrayList<>();
+        for(String tt : tooltips) {
+            list.add(tt.replace('&', '§'));
+        }
+        this.setTooltips(list.toArray(String[]::new));
         return this;
     }
 }
