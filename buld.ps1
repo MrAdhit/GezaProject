@@ -1,2 +1,2 @@
 Move-Item -Path ".\client\build\libs\questskills-1.0-SNAPSHOT.jar" -Destination ".\out\questskills-client.jar" -Force
-Move-Item -Path "C:\Users\MrAdhit\IdeaProjects\GezaProject\server\target\questskills-1.0-SNAPSHOT.jar" -Destination ".\out\questskills-server.jar" -Force
+Move-Item -Path ".\server\target\questskills-1.0-SNAPSHOT.jar" -Destination ".\out\questskills-server.jar" -Force
