@@ -2,7 +2,50 @@
 <module type="GENERAL_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/client/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_2_1_18_2_build_4_v2/net/fabricmc/fabric-api/fabric-api" />
+      <excludeFolder url="file://$MODULE_DIR$/client/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_2_1_18_2_build_4_v2/net/fabricmc/fabric-api/fabric-command-api-v1" />
+      <excludeFolder url="file://$MODULE_DIR$/client/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_2_1_18_2_build_4_v2/net/fabricmc/fabric-api/fabric-commands-v0" />
+      <excludeFolder url="file://$MODULE_DIR$/client/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_2_1_18_2_build_4_v2/net/fabricmc/fabric-api/fabric-containers-v0" />
+      <excludeFolder url="file://$MODULE_DIR$/client/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_2_1_18_2_build_4_v2/net/fabricmc/fabric-api/fabric-content-registries-v0" />
+      <excludeFolder url="file://$MODULE_DIR$/client/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_2_1_18_2_build_4_v2/net/fabricmc/fabric-api/fabric-convention-tags-v1" />
+      <excludeFolder url="file://$MODULE_DIR$/client/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_2_1_18_2_build_4_v2/net/fabricmc/fabric-api/fabric-crash-report-info-v1" />
+      <excludeFolder url="file://$MODULE_DIR$/client/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_2_1_18_2_build_4_v2/net/fabricmc/fabric-api/fabric-data-generation-api-v1" />
+      <excludeFolder url="file://$MODULE_DIR$/client/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_2_1_18_2_build_4_v2/net/fabricmc/fabric-api/fabric-events-lifecycle-v0" />
+      <excludeFolder url="file://$MODULE_DIR$/client/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_2_1_18_2_build_4_v2/net/fabricmc/fabric-api/fabric-game-rule-api-v1" />
+      <excludeFolder url="file://$MODULE_DIR$/client/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_2_1_18_2_build_4_v2/net/fabricmc/fabric-api/fabric-item-api-v1" />
+      <excludeFolder url="file://$MODULE_DIR$/client/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_2_1_18_2_build_4_v2/net/fabricmc/fabric-api/fabric-item-groups-v0" />
+      <excludeFolder url="file://$MODULE_DIR$/client/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_2_1_18_2_build_4_v2/net/fabricmc/fabric-api/fabric-keybindings-v0" />
+      <excludeFolder url="file://$MODULE_DIR$/client/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_2_1_18_2_build_4_v2/net/fabricmc/fabric-api/fabric-loot-api-v2" />
+      <excludeFolder url="file://$MODULE_DIR$/client/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_2_1_18_2_build_4_v2/net/fabricmc/fabric-api/fabric-loot-tables-v1" />
+      <excludeFolder url="file://$MODULE_DIR$/client/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_2_1_18_2_build_4_v2/net/fabricmc/fabric-api/fabric-mining-level-api-v1" />
+      <excludeFolder url="file://$MODULE_DIR$/client/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_2_1_18_2_build_4_v2/net/fabricmc/fabric-api/fabric-networking-api-v1" />
+      <excludeFolder url="file://$MODULE_DIR$/client/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_2_1_18_2_build_4_v2/net/fabricmc/fabric-api/fabric-networking-v0" />
+      <excludeFolder url="file://$MODULE_DIR$/client/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_2_1_18_2_build_4_v2/net/fabricmc/fabric-api/fabric-particles-v1" />
+      <excludeFolder url="file://$MODULE_DIR$/client/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_2_1_18_2_build_4_v2/net/fabricmc/fabric-api/fabric-renderer-api-v1" />
+      <excludeFolder url="file://$MODULE_DIR$/client/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_2_1_18_2_build_4_v2/net/fabricmc/fabric-api/fabric-renderer-indigo" />
+      <excludeFolder url="file://$MODULE_DIR$/client/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_2_1_18_2_build_4_v2/net/fabricmc/fabric-api/fabric-rendering-fluids-v1" />
+      <excludeFolder url="file://$MODULE_DIR$/client/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_2_1_18_2_build_4_v2/net/fabricmc/fabric-api/fabric-rendering-v1" />
+      <excludeFolder url="file://$MODULE_DIR$/client/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_2_1_18_2_build_4_v2/net/fabricmc/fabric-api/fabric-resource-conditions-api-v1" />
+      <excludeFolder url="file://$MODULE_DIR$/client/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_2_1_18_2_build_4_v2/net/fabricmc/fabric-api/fabric-resource-loader-v0" />
+      <excludeFolder url="file://$MODULE_DIR$/client/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_2_1_18_2_build_4_v2/net/fabricmc/fabric-api/fabric-screen-api-v1" />
+      <excludeFolder url="file://$MODULE_DIR$/client/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_2_1_18_2_build_4_v2/net/fabricmc/fabric-api/fabric-screen-handler-api-v1" />
+      <excludeFolder url="file://$MODULE_DIR$/client/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_2_1_18_2_build_4_v2/net/fabricmc/fabric-api/fabric-textures-v0" />
+      <excludeFolder url="file://$MODULE_DIR$/client/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_2_1_18_2_build_4_v2/net/fabricmc/fabric-api/fabric-transitive-access-wideners-v1" />
+      <excludeFolder url="file://$MODULE_DIR$/client/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_18_2_1_18_2_build_4_v2/io" />
+      <excludeFolder url="file://$MODULE_DIR$/client/.gradle/loom-cache/1.18.2" />
+      <excludeFolder url="file://$MODULE_DIR$/client/.gradle/loom-cache/natives" />
+      <excludeFolder url="file://$MODULE_DIR$/client/.gradle/7.4.2" />
+      <excludeFolder url="file://$MODULE_DIR$/client/.gradle/vcs-1" />
+      <excludeFolder url="file://$MODULE_DIR$/client/build/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/client/build/devlibs" />
+      <excludeFolder url="file://$MODULE_DIR$/client/build/generated" />
+      <excludeFolder url="file://$MODULE_DIR$/client/build/libs" />
+      <excludeFolder url="file://$MODULE_DIR$/client/build/resources" />
+      <excludeFolder url="file://$MODULE_DIR$/client/build/tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/client/run" />
+    </content>
+    <orderEntry type="jdk" jdkName="semeru-17" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
